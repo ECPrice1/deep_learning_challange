@@ -30,7 +30,7 @@ A nonprofit foundation named "Alphabet Soup" is looking to machine learning as a
 
 * In the first neural network model, two-layer hidden layers were used with 80 and 30 neurons used in the first and second layer, respectively. There were 43 input values and this seemed like a good starting point with a sufficient number of neurons to handle the amount of inputs. The first layer utilizing a sigmoid activation function and the second using a relu activation. The output layer had a single neuron and sigmoid activation function to map the output to a range between 0 and 1, representing either a successful or unsuccessful outcome. This attempt was run with 200 epochs, the choice for that being somewhat random, but seeming that it may be sufficiently high to handle the level of complexity, but also possibly low enought to avoid overfitting.
 * 
-![attempt_1](images/attempt_1.JPG)
+![attempt_1](/images/attempt_1.JPG)
 
 ## Results
 
