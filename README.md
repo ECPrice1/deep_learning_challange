@@ -26,7 +26,7 @@ A nonprofit foundation named "Alphabet Soup" is looking to machine learning as a
 ### Compiling, Training, and Evaluating the Model
 
 #### How many neurons, layers, and activation functions did you select for your neural network model, and why?
-#### Attempt #1 (72.99% Accuracy)
+#### Attempt #1 (73% Accuracy)
 
 * In the first neural network model, two-layer hidden layers were used with 80 and 30 neurons used in the first and second layer, respectively. There were 43 input values and this seemed like a good starting point with a sufficient number of neurons to handle the amount of inputs. The first layer utilizing a sigmoid activation function and the second using a relu activation. The output layer had a single neuron and sigmoid activation function to map the output to a range between 0 and 1, representing either a successful or unsuccessful outcome. This attempt was run with 200 epochs, the choice for that being somewhat random, but seeming that it may be sufficiently high to handle the level of complexity, but also possibly low enought to avoid overfitting.
 * 
@@ -42,7 +42,7 @@ This resulted in a 72.99% accuracy rating. Notably, the accuracy showing on each
 
 * Given my suspicion of potential overfitting, I kept the 2nd attempt almost exactly the same in strcuture with the same number of layers, neurons and utilized the same activation functions. Controlling those variables and keeping them the same would allow me to isolate the number of epochs and see if that would result in higher accuracy. An increased number of epochs gives the model more opportunities to learn from the data and adjust weights, but too many may overfit the model to the training dataset. Since it's relatively easy to just change that value and run the model again, I tested both higher and lower values, 1000, 100, 250 and finally 150 epochs (shown in the Jupyter Notebook, resulting in 72.77% accuracy), all of these values, both higher and lower seemed to result in a drop in accuracy and lead me to look at adjusting other parameters of the model.
 
-#### Attempt #3 (72.91% Accuracy)
+#### Attempt #3 (72.72% Accuracy)
 
 ![attempt_3](images/attempt_3.jpg)
 
